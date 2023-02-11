@@ -1,0 +1,83 @@
+.catalog-search input, .catalog-search .search-title-button {
+	border: 1px solid #918D8D;
+	border-radius: 0;
+	height: 33px;
+	box-sizing: border-box;
+	color: #908D8D;
+	font-size: 12px;
+	line-height: 13px;
+	background-color: #fff;
+}
+.catalog-search .search-title-button {
+	background-image: url(images/bi_search.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 33px;
+	padding: 0 8px;
+	margin-right: 20px;
+}
+.catalog-search .search-title-button:focus, .catalog-search .search-title-button:hover {
+	box-shadow: none;
+	background-color: #fff;
+	border-color: #918D8D !important;
+}
+.title-search-result {
+	border: 1px solid #918D8D;
+	display: none;
+	overflow: hidden;
+	z-index: 205;
+	background-color: #fff;
+	padding: 10px; 
+	min-width: min-content;
+	width: 417px;
+}
+#search {
+	position: relative;
+}
+.catalog-sort select {
+	background-color: #FFF;
+	border: 1px solid #918D8D;
+	width: 190px;
+	height: 33px;
+	padding: 0 13px;
+	font-size: 12px;
+	line-height: 13px;
+}
+.catalog-search .input-group {
+	width: 235px;
+}
+.catalog-search .form-control:focus {
+	border-color: #918D8D !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.search-title-result-item {
+	border-bottom: 1px solid #ddd;
+}
+.search-title .search-title-result-item:last-child {
+	border-bottom:  none;
+}
+.search-title-result-item-link {
+	font-size: 16px;
+	transition: 170ms linear all;
+}
+.search-title-result-item-price {
+	font-size: 16px;
+}
+.search-title-result-item-current-price {
+	font-weight: bold;
+}
+.search-title-result-item-old-price {
+	font-size: 80%;
+	text-decoration: line-through;
+}
+.search-title-result-item-price span {
+	color: #008037 !important;
+}
+.search-title-result-last-item {
+	display: none;
+}
+.search-title-result-item-image-container  {
+	padding-right: 10px;
+}

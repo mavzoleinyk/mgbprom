@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+<head>
+	<title>PromSnab</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+										<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<link href="/local/templates/promsnab/components/bitrix/catalog.section.list/.default/style.css?16566808417151" type="text/css"  rel="stylesheet" />
+<link href="/local/templates/promsnab/libs/bootstrap-5.0.2-dist/css/bootstrap.css?1656680841195704" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/libs/owlcarousel/dist/assets/owl.carousel.min.css?16566808413351" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/libs/owlcarousel/dist/assets/owl.theme.default.min.css?16566808411013" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/components/bitrix/sale.basket.basket.line/.default/style.css?16566808414536" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/components/bitrix/menu/header_tree/style.css?1656680841880" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/components/bitrix/menu/horizontal_multilevel/style.css?16566808411816" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/components/bitrix/breadcrumb/default/style.css?1656680841451" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/components/bitrix/menu/footer_menu/style.css?165668084111904" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/styles.css?165859105910785" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/promsnab/template_styles.css?16566808412622" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1661924306478527"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1675695084','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'5bc732a33b0407783f2604952d932f3b'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.js?1656680788274055"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.js?165668078870928"></script>
+<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.js?165668078817414"></script>
+<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.js?165668078870481"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?165668078616888"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="/local/templates/promsnab/libs/jquery.min.js?165668084189501"></script>
+<script type="text/javascript" src="/local/templates/promsnab/libs/jquery.mask.min.js?16566808418327"></script>
+<script type="text/javascript" src="/local/templates/promsnab/libs/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js?165668084178743"></script>
+<script type="text/javascript" src="/local/templates/promsnab/libs/owlcarousel/dist/owl.carousel.min.js?165668084144342"></script>
+<script type="text/javascript" src="/local/templates/promsnab/js/script.js?16566808414463"></script>
+<script type="text/javascript" src="/local/templates/promsnab/components/bitrix/sale.basket.basket.line/.default/script.js?16566808415335"></script>
+<script type="text/javascript" src="/local/templates/promsnab/components/bitrix/menu/header_tree/script.js?1656680841172"></script>
+<script type="text/javascript" src="/local/templates/promsnab/components/bitrix/menu/horizontal_multilevel/script.js?1656680841470"></script>
+<script type="text/javascript" src="/local/templates/promsnab/components/bitrix/menu/footer_menu/script.js?16566808416228"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "17e3c29cb6ccae3987af623baaf2d6ed"]); _ba.push(["host", "mgbprom.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+</head>
+<body>
+<div id="panel"></div>
+<header class="bx-header">
+	<div class="bx-header-section container">
+		<div class="row flex-row-reverse flex-lg-row pt-2 pt-md-4 mb-3 align-items-start align-items-lg-center justify-content-end" style="position: relative;">
+			<div class="col-12 col-lg-auto bx-header-logo_mobile d-flex justify-content-between d-lg-none my-3">
+				<a class="bx-logo-block text-start" href="/">
+					<img src="/include/logo.png"/>				</a>
+							</div>
+			<div class="col bx-header-contact d-lg-block d-none">
+				<div class="d-flex align-items-center justify-content-end pr-7">
+										<button class="feedback" id="top-feedback">Обратный звонок</button>
+				</div>
+			</div>			
+			<div class="col-6 col-lg-auto d-block bx-header-personal pt-1 pt-sm-2 pt-lg-0">
+				<script>
+var bx_basketFKauiI = new BitrixSmallCart;
+</script>
+<div id="bx_basketFKauiI" class="bx-basket bx-opener"><!--'start_frame_cache_bx_basketFKauiI'--><div class="bx-hdr-profile d-flex align-items-center justify-content-end">
+<script type="text/javascript">bx_basketFKauiI.currentUrl = '%2Fbitrix%2Fjs%2Fui%2Ffonts%2Fruble%2FBitrixlRubOpenSans-Regular.eot';</script>	<div class="bx-basket-block d-flex flex-column flex-sm-row align-items-center justify-content-center pe-4">
+		<a href="/auth/?login=yes&backurl=%2Fbitrix%2Fjs%2Fui%2Ffonts%2Fruble%2FBitrixlRubOpenSans-Regular.eot">		
+			<i class="fa fa-user"></i>
+		</a> 
+		<script type="text/javascript">bx_basketFKauiI.currentUrl = '%2Fbitrix%2Fjs%2Fui%2Ffonts%2Fruble%2FBitrixlRubOpenSans-Regular.eot';</script>			<a class="d-none" href="/auth/?login=yes&backurl=%2Fbitrix%2Fjs%2Fui%2Ffonts%2Fruble%2FBitrixlRubOpenSans-Regular.eot">
+				Войти			</a>
+							<a class="d-none" href="/login/?register=yes&backurl=%2Fbitrix%2Fjs%2Fui%2Ffonts%2Fruble%2FBitrixlRubOpenSans-Regular.eot">
+					Регистрация				</a>
+							</div>
+	<div class="bx-basket-block cart d-flex flex-column flex-sm-row align-items-center justify-content-center">			<a href="/personal/cart/">
+				<img src="/local/templates/promsnab/images/cart.png" alt="">
+			</a>	</div>
+</div><!--'end_frame_cache_bx_basketFKauiI'--></div>
+<script type="text/javascript">
+	bx_basketFKauiI.siteId       = 's1';
+	bx_basketFKauiI.cartId       = 'bx_basketFKauiI';
+	bx_basketFKauiI.ajaxPath     = '/bitrix/components/bitrix/sale.basket.basket.line/ajax.php';
+	bx_basketFKauiI.templateName = '.default';
+	bx_basketFKauiI.arParams     =  {'PATH_TO_BASKET':'/personal/cart/','PATH_TO_PERSONAL':'/personal/','SHOW_PERSONAL_LINK':'N','SHOW_NUM_PRODUCTS':'Y','SHOW_TOTAL_PRICE':'N','SHOW_PRODUCTS':'N','POSITION_FIXED':'N','SHOW_AUTHOR':'Y','PATH_TO_REGISTER':'/login/','PATH_TO_PROFILE':'/personal/','COMPONENT_TEMPLATE':'.default','PATH_TO_ORDER':'/personal/order/make/','SHOW_EMPTY_VALUES':'N','PATH_TO_AUTHORIZE':'/auth/','SHOW_REGISTRATION':'Y','HIDE_ON_BASKET_PAGES':'N','CACHE_TYPE':'A','SHOW_DELAY':'Y','SHOW_NOTAVAIL':'Y','SHOW_IMAGE':'Y','SHOW_PRICE':'Y','SHOW_SUMMARY':'Y','POSITION_VERTICAL':'top','POSITION_HORIZONTAL':'right','MAX_IMAGE_SIZE':'70','AJAX':'N','~PATH_TO_BASKET':'/personal/cart/','~PATH_TO_PERSONAL':'/personal/','~SHOW_PERSONAL_LINK':'N','~SHOW_NUM_PRODUCTS':'Y','~SHOW_TOTAL_PRICE':'N','~SHOW_PRODUCTS':'N','~POSITION_FIXED':'N','~SHOW_AUTHOR':'Y','~PATH_TO_REGISTER':'/login/','~PATH_TO_PROFILE':'/personal/','~COMPONENT_TEMPLATE':'.default','~PATH_TO_ORDER':'/personal/order/make/','~SHOW_EMPTY_VALUES':'N','~PATH_TO_AUTHORIZE':'/auth/','~SHOW_REGISTRATION':'Y','~HIDE_ON_BASKET_PAGES':'N','~CACHE_TYPE':'A','~SHOW_DELAY':'Y','~SHOW_NOTAVAIL':'Y','~SHOW_IMAGE':'Y','~SHOW_PRICE':'Y','~SHOW_SUMMARY':'Y','~POSITION_VERTICAL':'top','~POSITION_HORIZONTAL':'right','~MAX_IMAGE_SIZE':'70','~AJAX':'N','cartId':'bx_basketFKauiI'}; // TODO \Bitrix\Main\Web\Json::encode
+	bx_basketFKauiI.closeMessage = 'Скрыть';
+	bx_basketFKauiI.openMessage  = 'Раскрыть';
+	bx_basketFKauiI.activate();
+</script>			</div>
+			<div class="col-6 d-block d-lg-none menu-mobile">
+				<nav class="navbar navbar-light">
+					<div>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+				</nav>
+				<div class="collapse" id="navbarToggleExternalContent">
+					
+
+<div class="menu-sitemap-tree">
+<ul>
+	
+	
+					<li>
+				<div class="page"></div>
+				<div class="item-text"><a href="/catalog/">Каталог</a></div>
+			</li>
+		
+	
+	
+	
+	
+					<li>
+				<div class="page"></div>
+				<div class="item-text"><a href="/">Главная</a></div>
+			</li>
+		
+	
+	
+	
+	
+					<li>
+				<div class="page"></div>
+				<div class="item-text"><a href="/production/">Производство</a></div>
+			</li>
+		
+	
+	
+	
+	
+					<li>
+				<div class="page"></div>
+				<div class="item-text"><a href="/about/">О нас</a></div>
+			</li>
+		
+	
+	
+
+
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+		
+
+<div class="row align-items-center mb-6 header__menu d-none d-lg-flex">
+	<div class="col-4">
+		<ul class="d-flex justify-content-between" id="horizontal-multilevel-menu">
+
+	
+		
+									<li><a href="/catalog/" class="root-item">Каталог</a>
+					<ul class="pl-0">
+					
+				
+		
+														<li><a href="/catalog/kontsevaya_i_soedinitelnaya_armatura_dlya_rukavov/">Концевая и соединительная арматура для рукавов</a></li>
+									
+				
+		
+														<li><a href="/catalog/mufty_soedinitelnye/">Муфты соединительные</a></li>
+									
+				
+		
+														<li><a href="/catalog/obgonnye_mufty/">Обгонные муфты</a></li>
+									
+				
+		
+														<li><a href="/catalog/oporno_povorotnye_ustroystva/">Опорно-поворотные устройства</a></li>
+									
+				
+		
+														<li><a href="/catalog/podshipniki/">Подшипники</a></li>
+									
+				
+		
+														<li><a href="/catalog/podshipnikovye_uzly/">Подшипниковые узлы</a></li>
+									
+				
+		
+														<li><a href="/catalog/produktsiya_po_chertezham/">Продукция по чертежам</a></li>
+									
+				
+		
+														<li><a href="/catalog/reyki_i_shesterni/">Рейки и шестерни</a></li>
+									
+				
+		
+														<li><a href="/catalog/remni_i_shkivy/">Ремни и шкивы</a></li>
+									
+				
+		
+														<li><a href="/catalog/rukava_i_shlangi/">Рукава и шланги</a></li>
+									
+				
+		
+														<li><a href="/catalog/sistemy_lineynogo_peremeshcheniya/">Системы линейного перемещения</a></li>
+									
+				
+		
+														<li><a href="/catalog/tsepi_i_zvezdochki/">Цепи и звездочки</a></li>
+									
+				
+		
+														<li><a href="/catalog/vtulki_konicheskie/">Втулки конические</a></li>
+									
+				
+		
+														<li><a href="/catalog/motor_reduktory/">Мотор-редукторы</a></li>
+									
+				
+					</ul></li>		
+														<li><a href="/" class="root-item-selected">Главная</a></li>
+									
+				
+		
+														<li><a href="/production/" class="root-item">Производство</a></li>
+									
+				
+
+	</ul>
+</div>
+<div class="col-4 text-center">
+			<a class="bx-logo-block d-none d-lg-block" href="/">
+			<img src="/include/logo.png"/>		</a>
+	</div>
+<div class="col-4">
+	<ul class="d-flex justify-content-between">
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+															<li><a href="/about/" class="root-item">О нас</a></li>
+									
+			
+
+	</ul>
+</div>
+</div>	
+	</div>
+</header>
+<main>
+	<div class="container">
+							<div class="row mb-4">
+				<div class="col" id="navigation">
+					<link href="/bitrix/css/main/font-awesome.css?165668077928777" type="text/css" rel="stylesheet" />
+<div class="bx-breadcrumb mb-6" itemprop="http://schema.org/breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<div class="bx-breadcrumb-item">
+				<span class="color_green">Главная страница</span>
+			</div><div style="clear:both"></div></div>				</div>
+			</div>
+		<div class="row d-none d-lg-flex">
+	<div class="col mb-12">
+		<div class="owl-carousel owl-theme">
+			<video autoplay="autoplay" loop="loop" preload="auto" src="/local/templates/promsnab/images/banner1video.mp4" poster="/local/templates/promsnab/images/carousel-1.png"></video>
+						<div class="item">
+ 				<img style="position:relative;right:-725px;top:15px;width:40%;" src="/local/templates/promsnab/images/podshipniki-garantia.png" alt="">
+				<div class="gradient">
+				</div>
+				<div class="offer">
+ 					<img style="width:50%;height:auto;" src="/local/templates/promsnab/images/logo.png" alt="">
+					<h2>Расширенная гарантия, <span class="bg-green">2 года</span></h2>
+					<p class="mt-2 mb-4">
+						Подробности уточнять у менеджера
+					</p>
+ 					<a href="/catalog/" class="btn offer-btn">Каталог</a>
+				</div>
+			</div>
+			<div class="item">
+ 				<img style="height:500px;" src="/local/templates/promsnab/images/opu.jpg" alt="">
+				<div class="gradient">
+				</div>
+				<div class="offer">
+					<h2 class="mb-4">Опорно-поворотные устройства <span class="bg-green mb-4">в наличии</span> и <span class="bg-green">под заказ</span></h2>
+					 					<a href="/catalog/" class="btn offer-btn">Каталог</a>
+				</div>
+			</div>
+			<div class="item">
+ 				<img src="/local/templates/promsnab/images/obg-mufti.jpg" alt="">
+				<div class="gradient">
+				</div>
+				<div class="offer">
+ 					<img style="width:50%;height:auto;" src="/local/templates/promsnab/images/logo.png" alt="">
+					<h2>Обгонные муфты</h2>
+					<p class="mt-2 mb-4">
+						 <span class="bg-green">Огромный выбор</span> размеров в наличии
+					</p>
+ 					<a href="/catalog/" class="btn offer-btn">Каталог</a>
+				</div>
+			</div>
+			<div class="item">
+ 				<img src="/local/templates/promsnab/images/banner5.jpg" alt="">
+				<div class="gradient">
+				</div>
+				<div class="offer">
+					<h2>Комплексные <span class="bg-green">поставки</span> и <span class="bg-green">подбор комплектующих</span> для промышленности</h2>
+					<p class="mt-2 mb-4">
+						 Вы получаете продукцию от производителя напрямую
+					</p>
+ 					<a href="/catalog/" class="btn offer-btn">Каталог</a>
+				</div>
+			</div>
+			<div class="item">
+ 				<img src="/local/templates/promsnab/images/carousel-1.png" alt="">
+				<div class="gradient">
+				</div>
+				<div class="offer">
+					<h2>Огромный выбор <span class="bg-green">подшипников</span> по выгодным ценам</h2>
+					<p class="mt-2 mb-4">
+						 Вы получаете продукцию от производителя напрямую
+					</p>
+ 					<a href="/catalog/" class="btn offer-btn">Каталог</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col mb-12">
+		<h2 class="mb-6">Каталог</h2>
+		<div class="row">
+
+	<div class="col-12 col-md-6 d-flex">
+		<div class="card-big w-100">
+			<h3 class="mb-3"><a href="/catalog/podshipniki/">Подшипники</a></h3>
+			<div class="d-flex justify-content-between">
+				<ul class="subsection ps-0">
+									<li> <a href='/catalog/podshipniki/kombinirovannye/'>Комбинированные</a> </li>
+									<li> <a href='/catalog/podshipniki/rolikovye/'>Роликовые</a> </li>
+									<li> <a href='/catalog/podshipniki/sharikovye/'>Шариковые</a> </li>
+									<li> <a href='/catalog/podshipniki/sharnirnye/'>Шарнирные</a> </li>
+								</ul>
+				<img src="/upload/iblock/561/y18hfh04b0bu4d1bnpbzl8qc66js49qh.png" alt="/upload/iblock/561/y18hfh04b0bu4d1bnpbzl8qc66js49qh.png" title="/upload/iblock/561/y18hfh04b0bu4d1bnpbzl8qc66js49qh.png">
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 d-flex">
+		<div class="card-big w-100">
+			<h3 class="mb-3"><a href="/catalog/podshipnikovye_uzly/">Подшипниковые узлы</a></h3>
+			<div class="d-flex justify-content-between">
+				<ul class="subsection ps-0">
+									<li> <a href='/catalog/podshipnikovye_uzly/igolchatye2/'>Игольчатые</a> </li>
+									<li> <a href='/catalog/podshipnikovye_uzly/nerzhaveyushchie2/'>Нержавеющие</a> </li>
+									<li> <a href='/catalog/podshipnikovye_uzly/rolikovye2/'>Роликовые</a> </li>
+									<li> <a href='/catalog/podshipnikovye_uzly/sharikovye2/'>Шариковые</a> </li>
+								</ul>
+				<img src="/upload/iblock/c06/06cybzu83vzbfw0nwbuo7q3bgbyxx8il.png" alt="/upload/iblock/c06/06cybzu83vzbfw0nwbuo7q3bgbyxx8il.png" title="/upload/iblock/c06/06cybzu83vzbfw0nwbuo7q3bgbyxx8il.png">
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 d-flex">
+		<div class="card-big w-100">
+			<h3 class="mb-3"><a href="/catalog/reyki_i_shesterni/">Рейки и шестерни</a></h3>
+			<div class="d-flex justify-content-between">
+				<ul class="subsection ps-0">
+									<li> <a href='/catalog/reyki_i_shesterni/igolchatye4/'>Игольчатые</a> </li>
+									<li> <a href='/catalog/reyki_i_shesterni/nerzhaveyushchie4/'>Нержавеющие</a> </li>
+									<li> <a href='/catalog/reyki_i_shesterni/rolikovye4/'>Роликовые</a> </li>
+									<li> <a href='/catalog/reyki_i_shesterni/sharikovye4/'>Шариковые</a> </li>
+								</ul>
+				<img src="/upload/iblock/1d7/qwl5tw30z2i6ujg7u3r8kearjk03stni.png" alt="/upload/iblock/1d7/qwl5tw30z2i6ujg7u3r8kearjk03stni.png" title="/upload/iblock/1d7/qwl5tw30z2i6ujg7u3r8kearjk03stni.png">
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-6 d-flex">
+		<div class="card-big w-100">
+			<h3 class="mb-3"><a href="/catalog/tsepi_i_zvezdochki/">Цепи и звездочки</a></h3>
+			<div class="d-flex justify-content-between">
+				<ul class="subsection ps-0">
+									<li> <a href='/catalog/tsepi_i_zvezdochki/igolchatye3/'>Игольчатые</a> </li>
+									<li> <a href='/catalog/tsepi_i_zvezdochki/nerzhaveyushchie3/'>Нержавеющие</a> </li>
+									<li> <a href='/catalog/tsepi_i_zvezdochki/rolikovye3/'>Роликовые</a> </li>
+									<li> <a href='/catalog/tsepi_i_zvezdochki/sharikovye3/'>Шариковые</a> </li>
+								</ul>
+				<img src="/upload/iblock/f42/ksyuut8qwh5gwtpui75p75x2yeehatp1.png" alt="/upload/iblock/f42/ksyuut8qwh5gwtpui75p75x2yeehatp1.png" title="/upload/iblock/f42/ksyuut8qwh5gwtpui75p75x2yeehatp1.png">
+			</div>
+		</div>
+	</div>
+			
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/kontsevaya_i_soedinitelnaya_armatura_dlya_rukavov/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png" alt="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png" title="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png">
+						<h4>Концевая и соединительная арматура для рукавов</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/mufty_soedinitelnye/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png" alt="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png" title="/upload/iblock/66b/cpi888ijd7mrp5meghzcy26xsna00ee7.png">
+						<h4>Муфты соединительные</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/obgonnye_mufty/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/a55/eq9ei147ug7q88gg85c6d6b3s454xyk4.png" alt="/upload/iblock/a55/eq9ei147ug7q88gg85c6d6b3s454xyk4.png" title="/upload/iblock/a55/eq9ei147ug7q88gg85c6d6b3s454xyk4.png">
+						<h4>Обгонные муфты</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/oporno_povorotnye_ustroystva/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/31a/m2i043n1g74j8nb93l32nci8gf9m8eeg.png" alt="/upload/iblock/31a/m2i043n1g74j8nb93l32nci8gf9m8eeg.png" title="/upload/iblock/31a/m2i043n1g74j8nb93l32nci8gf9m8eeg.png">
+						<h4>Опорно-поворотные устройства</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/produktsiya_po_chertezham/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/85b/qukrnbbrm6qtaj6pr1waonx91g0scpwk.png" alt="/upload/iblock/85b/qukrnbbrm6qtaj6pr1waonx91g0scpwk.png" title="/upload/iblock/85b/qukrnbbrm6qtaj6pr1waonx91g0scpwk.png">
+						<h4>Продукция по чертежам</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/remni_i_shkivy/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/167/vcrhtkw9va8ed035fvvkvd6dqqofiqr0.png" alt="/upload/iblock/167/vcrhtkw9va8ed035fvvkvd6dqqofiqr0.png" title="/upload/iblock/167/vcrhtkw9va8ed035fvvkvd6dqqofiqr0.png">
+						<h4>Ремни и шкивы</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/rukava_i_shlangi/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/653/e7bvgi33suwd5cqt8hw0oezaq77dtq0u.png" alt="/upload/iblock/653/e7bvgi33suwd5cqt8hw0oezaq77dtq0u.png" title="/upload/iblock/653/e7bvgi33suwd5cqt8hw0oezaq77dtq0u.png">
+						<h4>Рукава и шланги</h4>
+					</a>
+				</div>
+			</div>
+		
+					
+			<div class="col-12 col-sm-6 col-md-3 d-flex">
+				<div class="card-small w-100 d-flex justify-content-center text-center">
+					<a href="/catalog/sistemy_lineynogo_peremeshcheniya/" class="d-flex flex-column justify-content-between align-items-center"> 
+						<img src="/upload/iblock/972/oljbzsfz9ek5gqynvdspepg7htc2x77r.png" alt="/upload/iblock/972/oljbzsfz9ek5gqynvdspepg7htc2x77r.png" title="/upload/iblock/972/oljbzsfz9ek5gqynvdspepg7htc2x77r.png">
+						<h4>Системы линейного перемещения</h4>
+					</a>
+				</div>
+			</div>
+		
+		
+</div>	</div>
+</div>
+<div class="row">
+	</div>
+
+
+</div> <!-- end container -->
+</main> <!-- end main -->
+<footer class="bx-footer">
+	<div class="bx-footer-section">
+		<div class="container">
+			<div class="row flex-row-reverse flex-sm-row">
+				<div class="col-12 col-lg-3 text-center text-lg-start pb-3 pb-lg-0">
+											<a class="bx-logo-block footer__logo d-block" href="/">
+							<img src="/include/logo.png"/>						</a>
+										<a href="https://mgbprom.ru/privacy/" class="policy" target="_blank">Политика конфиденциальности</a>
+				</div>
+				<div class="col-6 col-lg-2 d-none d-sm-block">
+					
+<ul class="bottom_menu ps-0">
+			<li> <a href="/catalog/">Каталог</a> </li>
+			<li> <a href="/production/">Производство</a> </li>
+			<li> <a href="/about/">О нас</a> </li>
+			<li> <a href="/contacts/">Контакты</a> </li>
+	</ul>
+				</div>
+				<div class="col-5 col-sm-6 col-lg-3 text-end text-sm-start">
+									</div>
+				<div class="col-7 col-sm-12 col-lg-4 form-phone pt-sm-3 pt-lg-0">
+					<p class="mb-2 d-none d-md-block">Заявка на звонок</p>
+					<div class="d-none d-md-block">
+						<input class="sender-phone" type="phone" name="user_phone2" placeholder="Ваш телефон">
+						<button class="sender-btn">Отправить</button>
+						<span class="error2 mt-2">Введите номер телефона</span>
+						<span class="errorPhone2 mt-2">Введите корректный номер телефона</span>
+					</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="popup-fade top-feedback">
+	<div class="popup">
+		<form action="" enctype='multipart/form-data' method="post" class="mb-0">
+			<div class="order-block-fail">
+				<p>К сожалению, Вы не прошли проверку</p>
+				<p>Просим связаться с нами по телефону</p>
+				<p>+7(499)959-12-65 +7(495)504-27-06</p>
+			</div>
+			<div class="order-block__success">
+				<p>Спасибо за заявку!</p>
+				<p>Наш менеджер свяжется с Вами в течение дня.</p>
+			</div>
+			<div class="order-block_inner">
+				<p class="text-center">Оставьте заявку и наш менеджер свяжется с Вами</p>
+				<input class="w-100" type="text" name="name" placeholder="Ваше имя"> 
+				<input type="phone" placeholder="Ваш телефон*" class="phone w-100" name="user_phone">
+				<span class="error">Введите номер телефона</span>
+				<span class="errorPhone">Введите корректный номер телефона</span>
+				<textarea class="d-block w-100" name="text" placeholder="Комментарий"></textarea>
+				<div class="d-flex align-items-center">
+					<button class="btn me-3">Отправить</button>
+					<div>
+						<div class="d-flex align-items-center">
+							<input type="checkbox" id="checkbox_product1" class="custom_checkbox" checked>
+							<label for="checkbox_product1">
+								Отправляя свои контактные данные, вы соглашаетесь с политикой обработки персональных данных
+							</label>
+						</div>
+						<span class="errorCheckbox">Необходимо отметить этот пункт</span>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

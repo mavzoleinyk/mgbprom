@@ -1,0 +1,68 @@
+/*Sub-menu box*/
+#horizontal-multilevel-menu li ul
+{
+	position:absolute;
+	top:auto;
+	display:none;
+	z-index:500;
+	height:auto;
+	width: 365px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 21px -5px rgba(12, 11, 36, 0.1), -5px -5px 21px -5px rgba(12, 11, 36, 0.1);
+}
+#horizontal-multilevel-menu li ul li {
+	margin-bottom: 20px;
+    list-style-type: none;
+    background: url(images/akar-icons_gear.png) no-repeat left center;
+    padding-left: 33px;
+}
+#horizontal-multilevel-menu li ul li:last-child {
+	margin-bottom: 0;
+}
+#horizontal-multilevel-menu li ul li::marker {
+	text-align: center;
+    vertical-align: middle;
+}
+/*Item link*/
+#horizontal-multilevel-menu li ul a
+{
+	text-align:left;
+	font-size: 16px;
+    line-height: 18px;
+}
+
+#horizontal-multilevel-menu li ul ul
+{
+	margin:-27px 0 0 132px;
+	/*margin:-1.93em 0 0 11.6em;*/
+}
+
+#horizontal-multilevel-menu li:hover ul ul,
+#horizontal-multilevel-menu li.jshover ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul ul
+{
+	/*top:-999em;*/
+	display:none;
+}
+
+#horizontal-multilevel-menu li:hover ul,
+#horizontal-multilevel-menu li.jshover ul,
+#horizontal-multilevel-menu li li:hover ul,
+#horizontal-multilevel-menu li li.jshover ul,
+#horizontal-multilevel-menu li li li:hover ul,
+#horizontal-multilevel-menu li li li.jshover ul,
+#horizontal-multilevel-menu li li li li:hover ul,
+#horizontal-multilevel-menu li li li li.jshover ul,
+#horizontal-multilevel-menu li li li li li:hover ul,
+#horizontal-multilevel-menu li li li li li.jshover ul
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
