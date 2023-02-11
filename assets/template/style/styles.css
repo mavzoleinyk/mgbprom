@@ -508,3 +508,9 @@ textarea:focus-visible {
 .basket-items-list-item-container {
     display: flex;
 }
+
+/* Типовая страница */
+.content img{
+    display: block;
+    max-width: 100%;
+}

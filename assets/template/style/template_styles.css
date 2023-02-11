@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Graphik';
-    src: url('fonts/GraphikLCGRegular.ttf') format('truetype');
+    src: url('../fonts/GraphikLCGRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
 }
 @font-face {
     font-family: 'RussoOne';
-    src: url('fonts/RussoOne-Regular.ttf') format('truetype');
+    src: url('../fonts/RussoOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
 }
 @font-face {
     font-family: 'ProximaNova';
-    src: url('fonts/ProximaNova-Bold.ttf') format('truetype');
+    src: url('../fonts/ProximaNova-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
